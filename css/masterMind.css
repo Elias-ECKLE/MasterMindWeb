@@ -1,0 +1,87 @@
+
+
+    /*styles des DIVS JEU -----------------------------------*/
+    #sectionSelect{
+    	display: flex;
+    	justify-content: center;
+
+    }
+
+    #sectionSelect div{
+    	margin-left: 10px;
+    	margin-right: 10px;
+    }
+
+
+
+    .divSelect{
+    	border:solid black;
+    	border-radius:50px;
+    	margin:2px;
+    	width:3%;
+
+    }
+
+
+
+
+
+	#divParent{
+			border : solid black;
+			height: 150vh;
+			margin: 40px;
+
+			display: flex;
+		}
+
+
+		#divParent div{
+			border:solid black;
+
+		}
+		/*enfants style, colonne style */
+	    #divParent div:first-child{
+			width:10%;
+		}
+	    #divParent div:nth-child(2){
+			width:25%;
+		}
+		#divParent div:nth-child(3){
+			width:80%;
+		}
+
+
+		#divParent div .divLigne{
+			width:100%;
+			height:10%;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			
+		}
+		#divParent div .divLigne .divPion{
+			width:10%;
+			height: 35%;
+			margin:3%;
+			border-radius:50px;
+		}
+
+
+
+
+
+
+
+		#sectionCombinaisonMystere {
+			visibility: hidden;
+			display: flex;
+		}
+
+	    #sectionCombinaisonMystere div{
+			border:solid ;
+			width: 5%;
+			margin:3px;
+			border-radius: 30px;
+		}
